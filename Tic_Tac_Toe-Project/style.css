@@ -1,0 +1,42 @@
+body{
+  background-color: #000;
+}
+#cellContainer{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(3,auto)
+  
+}
+.cell{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #17F3FF;
+  margin:auto;
+  font-size: 4rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  
+}
+#statusText{
+  padding:10px 10px;
+  color:#fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                         0 0 20px rgba(255, 255, 255, 0.6),
+                         0 0 30px rgba(255, 255, 255, 0.4);
+            font-size: 30px;
+}
+#restartBtn{
+  font-family:  Impact;
+  font-size: 19px;
+  padding: 12px 30px;
+  
+}
+.sb{
+  text-align: center;
+}
+
+
+      
